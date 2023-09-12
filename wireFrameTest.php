@@ -1,0 +1,45 @@
+<?php
+?>
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        <header>
+            <div>
+                <button></button>
+                <button></button>
+                <button></button>
+            </div>
+        </header>
+        <main>
+            <div>
+                <p></p>
+            </div>
+            <div>
+                <div>
+                    <img>
+                    <p></p>
+                </div>
+                <div>
+                    <img>
+                    <p></p>
+                </div>
+                <div>
+                    <img>
+                    <p></p>
+                </div>
+                <div>
+                    <img>
+                    <p></p>
+                </div>
+                <div>
+                    <img>
+                    <p></p>
+                </div>
+            </div>
+        </main>
+    <footer></footer>
+    </body>
+</html>
+

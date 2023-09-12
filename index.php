@@ -14,16 +14,46 @@ This document is made by Rick Beniers, s1155108. 06-09-2023. -->
     // Single line comment
 
     /*
-     * Multi line comment
+     * The different Html element tags are displayed here:
+     * -    <HTML>
+     * -        <Body>
+     * -        <Header>
+     * -            <Div>
+     * -                <Button></Button>
+     * -                <Button></Button>
+     * -            </Div>
+     * -        <Main>
+     * -            <Div>
+     * -                <Div>
+     * -                    <img>
+     * -                    <p>
+     * -                </Div>
+     * -                    <img>
+     * -                    <p>
+     * -                <Div>
+     * -                    <img>
+     * -                    <p>
+     * -                </Div>
+     * -                <Div>
+     * -                    <img>
+     * -                    <p>
+     * -                </Div>
+     * -                <Div>
+     * -                    <img>
+     * -                    <p>
+     * -                </Div>
+     * -                <Div>
+     * -                    <img>
+     * -                    <p>
+     * -                </Div>
+     * -            </Div>
+     * -        </Main>
+     * -        <Footer>
+     * -        </Footer>
+     * -    </HTML>
      */
+    //
 
-    //Opdracht 01
-
-    //Opdracht 02
-
-    //Opdracht 03
-
-    //Opdracht 04
     function DisplayInfo(){
 
         //declare and initialise variables
