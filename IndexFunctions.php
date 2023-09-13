@@ -4,56 +4,17 @@ the tasks as made in this document are saved by way of VCS github.
 this document is meant to be shared with the teachers of the study.
 
 This document is made by Rick Beniers, s1155108. 06-09-2023. -->
-<html class="html">
-<header class="header">
-    <link rel="stylesheet" href="indexStyle.css?ver=1">
-</header>
-<body class="body">
-<div id="Content">
     <?php
     // Single line comment
 
     /*
-     * The different Html element tags are displayed here:
-     * -    <HTML>
-     * -        <Body>
-     * -        <Header>
-     * -            <Div>
-     * -                <Button></Button>
-     * -                <Button></Button>
-     * -            </Div>
-     * -        <Main>
-     * -            <Div>
-     * -                <Div>
-     * -                    <img>
-     * -                    <p>
-     * -                </Div>
-     * -                    <img>
-     * -                    <p>
-     * -                <Div>
-     * -                    <img>
-     * -                    <p>
-     * -                </Div>
-     * -                <Div>
-     * -                    <img>
-     * -                    <p>
-     * -                </Div>
-     * -                <Div>
-     * -                    <img>
-     * -                    <p>
-     * -                </Div>
-     * -                <Div>
-     * -                    <img>
-     * -                    <p>
-     * -                </Div>
-     * -            </Div>
-     * -        </Main>
-     * -        <Footer>
-     * -        </Footer>
-     * -    </HTML>
+     * Multi line comment
      */
     //
 
+    /**
+     * Display the data from ten variables.
+     */
     function DisplayInfo(){
 
         //declare and initialise variables
@@ -76,9 +37,9 @@ This document is made by Rick Beniers, s1155108. 06-09-2023. -->
         //if bool relatie equals yes or no change the data type to string
         // and assign specific strings
         if($relatie == true) {
-            $relatie = "Yes";
+            $relatie = "Ja";
         }else{
-            $relatie = "No";
+            $relatie = "Nee";
         }
 
         //print variables in browser
@@ -92,10 +53,24 @@ This document is made by Rick Beniers, s1155108. 06-09-2023. -->
             echo "<br>".$familie[$i];
         }
     }
-    //call method
-    DisplayInfo();
+    /**
+     * Display the data from ten variables.
+     */
+    function CheckTimeOfDay(){
+        //if the time in hours is between 0600 and 1200
+        if(date("H") > 06 && date("H") < 12){
+            //change background color to light orange
+            ?> <style> .contentDiv{background-color: lightsalmon}</style> <?php
+        }
+        //if the time in  hours is between 1200 and 1700
+        if(date("H") > 12 && date("H") < 17){
+            //change background color to light blue
+            ?> <style> .contentDiv{background-color: lightblue}</style> <?php
+        }
+        //if the time in hours is between 1700 and 2400
+        if(date("H") > 17 && date("H") < 24){
+            //change background color to dark grey
+            ?> <style> .contentDiv{background-color: darkgray}</style> <?php
+        }
+    }
     ?>
-</div>
-</body>
-<footer class="footer"></footer>
-</html>

@@ -25,3 +25,10 @@
     height: 80%;
     border: 1px solid black;
 }
+
+.contentDiv{
+    width: 200px;
+    height: 400px;
+    position: center;
+    border: 1px solid black;
+}
